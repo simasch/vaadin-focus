@@ -12,6 +12,7 @@ public class HelloWorldForm extends FormLayout {
         TextField name = new TextField("Your name");
         name.setValue("This is my name");
         name.setAutoselect(true);
+        name.setAutofocus(true);
         add(name);
 
         Button sayHello = new Button("Say hello");
